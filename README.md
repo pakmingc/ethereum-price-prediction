@@ -1,5 +1,7 @@
 # Ethereum Price Prediction
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pakmingc/ethereum-price-prediction/blob/main/Ethereum_price_prediction.ipynb)
+
 This project aims to predict the future price of Ethereum using historical price data and advanced data science techniques. The prediction focuses on the period from 2024 to 2027.
 
 ## Project Overview
