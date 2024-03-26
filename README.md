@@ -44,6 +44,10 @@ Please refer to the Colab program file for detailed code and visualizations.
 
 Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
+## Contact
+
+If you have any questions or need further assistance, please feel free to contact the project maintainer at pakmingc2@gmail.com
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
