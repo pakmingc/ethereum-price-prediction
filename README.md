@@ -1,53 +1,147 @@
-# Ethereum Price Prediction
+# 📊 Ethereum Price Prediction
+
+<div align="center">
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pakmingc/ethereum-price-prediction/blob/main/Ethereum_price_prediction.ipynb)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 
-This project aims to predict the future price of Ethereum using historical price data and advanced data science techniques. The prediction focuses on the period from 2024 to 2027.
+**LSTM Neural Network for Cryptocurrency Price Forecasting**
 
-## Project Overview
+</div>
 
-The project involves the following key steps:
+---
 
-1. Data Mining: Collecting historical price data for Ethereum from Yahoo Finance.
-2. Exploratory Data Analysis (EDA): Exploring price trends, volatility, and the relationship between price and trading volume.
-3. Model Development: Building a predictive model using TensorFlow and Long Short-Term Memory (LSTM) neural networks.
-4. Results and Interpretation: Evaluating the model's performance and interpreting the price predictions.
+## 🎯 Project Overview
 
-## Requirements
+This project uses deep learning (LSTM) to predict Ethereum price movements. The model is trained on historical price data from Yahoo Finance and generates forecasts for future price trends.
 
-To run the code in this repository, you need the following dependencies:
+### 📈 Model Performance
 
-- Python 3.x
-- TensorFlow
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- yfinance
+| Metric | Value |
+|--------|-------|
+| MSE | 0.0002 |
+| RMSE | 0.0145 |
+| Mean Deviation | 0.0097 units |
 
-You can install the required packages using pip:
+---
 
-## Usage
+## 🔧 Pipeline
 
-1. Clone this repository to your local machine or download the Colab program file.
-2. Install the required dependencies.
-3. Run the Colab program file to execute the code.
-4. The program will download the historical price data, perform exploratory data analysis, train the LSTM model, and generate price predictions for Ethereum from 2024 to 2027.
+```
+📥 Data Mining          →  Historical ETH prices from Yahoo Finance
+📊 Exploratory Analysis →  Trends, volatility, volume correlation
+🧠 Model Training       →  LSTM neural network (TensorFlow/Keras)
+📈 Prediction           →  Future price forecasting
+```
 
-## Results
+---
 
-The LSTM model achieved an MSE of 0.0002 and an RMSE of 0.0145 on the test data, indicating a good fit to the data. The model's predictions closely align with the actual prices, diverging by an average of 0.0097 units.
+## ✨ Features
 
-Please refer to the Colab program file for detailed code and visualizations.
+- 🔄 **Automated Data Fetching** - Pull latest prices via yfinance
+- 📉 **Technical Analysis** - Price trends, volatility patterns, volume correlation
+- 🧠 **LSTM Model** - Sequential neural network for time series
+- 📊 **Visualization** - Matplotlib/Seaborn charts for analysis
+- 🚀 **Colab Ready** - One-click notebook execution
 
-## Contributing
+---
 
-Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+## 🛠️ Tech Stack
 
-## Contact
+```
+Python 3.x
+├── TensorFlow / Keras   # Deep learning framework
+├── Pandas / NumPy       # Data manipulation
+├── Matplotlib / Seaborn # Visualization
+└── yfinance             # Market data API
+```
 
-If you have any questions or need further assistance, please feel free to contact the project maintainer at pakmingc2@gmail.com
+---
 
-## License
+## 🚀 Quick Start
 
-This project is licensed under the [MIT License](LICENSE).
+### Option 1: Google Colab (Recommended)
+
+Click the **Open in Colab** badge above to run instantly.
+
+### Option 2: Local Setup
+
+```bash
+# Clone repository
+git clone https://github.com/pakmingc/ethereum-price-prediction.git
+cd ethereum-price-prediction
+
+# Install dependencies
+pip install tensorflow pandas numpy matplotlib seaborn yfinance
+
+# Run notebook
+jupyter notebook Ethereum_price_prediction.ipynb
+```
+
+---
+
+## 📁 Project Structure
+
+```
+ethereum-price-prediction/
+├── Ethereum_price_prediction.ipynb  # Main notebook
+├── README.md                        # Documentation
+└── LICENSE                          # MIT License
+```
+
+---
+
+## 📊 What the Notebook Generates
+
+- 📈 Historical price charts
+- 📉 Volatility analysis
+- 🔮 Prediction vs actual comparison
+- 📊 Model training loss curves
+
+---
+
+## 🧠 Model Architecture
+
+```
+Input Layer (60 time steps)
+    ↓
+LSTM Layer (50 units, return_sequences=True)
+    ↓
+Dropout (0.2)
+    ↓
+LSTM Layer (50 units)
+    ↓
+Dropout (0.2)
+    ↓
+Dense Layer (25 units)
+    ↓
+Output Layer (1 unit - predicted price)
+```
+
+---
+
+## ⚠️ Disclaimer
+
+This project is for **educational purposes only**. Cryptocurrency markets are highly volatile. Do not use this model for actual trading decisions.
+
+---
+
+## 🤝 Contributing
+
+Contributions welcome! Feel free to open issues or submit pull requests.
+
+---
+
+## 📄 License
+
+MIT License - see [LICENSE](LICENSE) for details.
+
+---
+
+<div align="center">
+
+⭐ Star this repo if you find it useful!
+
+</div>
