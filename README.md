@@ -134,14 +134,10 @@ Contributions welcome! Feel free to open issues or submit pull requests.
 
 ---
 
+## 📫 Contact
+
+📧 pakmingc2@gmail.com
+
 ## 📄 License
 
 MIT License - see [LICENSE](LICENSE) for details.
-
----
-
-<div align="center">
-
-⭐ Star this repo if you find it useful!
-
-</div>
